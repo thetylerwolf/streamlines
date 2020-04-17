@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tap test/*.js",
-    "build": "browserify -s streamlines ./index.js > dist/streamlines.js && uglifyjs dist/streamlines.js > dist/streamlines.min.js"
+    "build": "browserify -s streamlines ./index.js > dist/streamlines.js"
   },
   "repository": {
     "type": "git",

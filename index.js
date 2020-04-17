@@ -33,6 +33,7 @@ function computeStreamlines(protoOptions) {
   options.onStreamlineAdded = protoOptions.onStreamlineAdded;
   options.onPointAdded = protoOptions.onPointAdded;
   options.forwardOnly = protoOptions.forwardOnly;
+  options.maxLength = protoOptions.maxLength || 0;
 
   if (!protoOptions.seed) {
     options.seed = new Vector(
